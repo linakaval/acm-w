@@ -2,20 +2,17 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <h1>Hello World! We are ACM-W @ UC!</h1>
+    <p>ACM-W @ UC is a women-interest group for all students who are interested in computing or technology. 
+      We host students in Computer Science, Computer Engineering, Electrical Engineering, Information Systems, and Information Technology, however, we are open to everyone!</p>
+    <p>As a student organization, we hold events throughout the semester to develop our members! 
+      Some of these events are tech-talks, company networking, and socials. 
+      We also serve the local community with outreach and mentorship programs.</p>
   </Layout>
 )
 

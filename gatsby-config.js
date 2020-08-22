@@ -1,8 +1,30 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `ACM-W @ UC`,
+    description: `ACM-W @ UC is a women-interest student organization for technology students at the University of Cincinnati.`,
+    author: `Lina Kaval`,
+    menuLinks: [
+      {
+        name: `Home`,
+        link: `/`,
+      },
+      {
+        name: `About`,
+        link: `/About`,
+      },
+      {
+        name: `Get Involved`,
+        link: `/GetInvolved`,
+      },
+      {
+        name: `Meetings`,
+        link: `/Meetings`,
+      },
+      {
+        name: `Resources`,
+        link: `/Resources`,
+      },
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
